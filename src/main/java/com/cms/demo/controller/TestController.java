@@ -31,5 +31,10 @@ public class TestController {
 		return new ResponseEntity<>(token, HttpStatus.OK);
     	
     }
+
+    @GetMapping("/test")
+    public ResponseEntity<?> test(){
+        return null;
+    }
    
 }
